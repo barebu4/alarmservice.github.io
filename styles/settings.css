@@ -46,7 +46,17 @@ body{
     background-color: rgba(236, 236, 236, 0.521);
 }
 
+.btn-burger{
+    display: inline-block;
+    width: min-content;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
 
+.btn-burger>img{
+    width: 2em
+}
 
 
 /* ========================= SIDE BAR END ======================= */
@@ -62,3 +72,20 @@ body{
 
 
 /* ============================= MAIN CONTEINER END =================== */
+
+
+/* ============================= MEDIA SCREEN ========================= */
+
+
+@media screen and (min-width: 320px) {
+    
+}
+
+
+
+
+
+
+
+
+/* ============================= MEDIA SCREEN END ========================= */
