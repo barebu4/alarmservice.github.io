@@ -1,0 +1,82 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    display: block;
+    font-size: 18px;
+    margin-left: 2em;
+    margin-top: 1em;
+    user-select: none;
+}
+
+.h2{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    user-select: none;
+}
+
+.main{
+    display: block;
+    margin-top: 10em;
+}
+
+.login-conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-input{
+    height: 2em;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.password-input{
+    height: 2em;
+    margin-bottom: 2em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.come-in-button{
+    height: 2em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.come-in-button:hover{
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+}
+
+.come-in-button:active{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
