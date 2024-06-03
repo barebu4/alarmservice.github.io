@@ -1,11 +1,14 @@
+/* ====================== PREMAIN ====================== */
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.main{
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-}
+/* ====================== PREMAIN END ====================== */
+
+
+/* ========================= SIDE BAR ======================= */
+
 
 .side-bar{
     margin: 10px;
@@ -17,6 +20,11 @@ body{
 
 .h2{
     font-size: 22px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
 
 .link-settings{
@@ -41,8 +49,16 @@ body{
 
 
 
+/* ========================= SIDE BAR END ======================= */
+
+
+/* ============================= MAIN CONTEINER =================== */
+
 
 .main-conteiner{
     margin-top: 10px;
     margin-left: 5em;
 }
+
+
+/* ============================= MAIN CONTEINER END =================== */
