@@ -82,6 +82,10 @@ body{
     opacity: 0;
 }
 
+.h4{
+    padding-bottom: 1em;
+    border-bottom: 0.5px solid gray;
+}
 
 /* ========================= SIDE BAR END ======================= */
 
