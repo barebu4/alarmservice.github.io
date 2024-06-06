@@ -15,7 +15,11 @@ body{
     display: flex;
     flex-direction: column;
     border-right: 0.5px solid rgb(212, 212, 212);
-    height: 200%;
+}
+
+.ul{
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .h2{
@@ -46,16 +50,36 @@ body{
     background-color: rgba(236, 236, 236, 0.521);
 }
 
-.btn-burger{
-    display: inline-block;
-    width: min-content;
-    cursor: pointer;
+.header__menu__burger-btn{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
     border: none;
-    background-color: white;
+    background-color: aqua;
+    z-index: 2;
 }
 
-.btn-burger>img{
-    width: 2em
+.header__menu__burger-btn span{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    left: 5px;
+    transition: transform .5s, opacity .5s, background-color .5s;
+
+}
+
+.header__menu__burger-btn span:nth-child(1){
+    transform: translateY(-10px);
+}
+
+.header__menu__burger-btn span:nth-child(3){
+    transform: translateY(10px);
+}
+
+.side-bar.open .header__burger-btn span:nth-child(2) {
+    opacity: 0;
 }
 
 
@@ -67,20 +91,52 @@ body{
 
 .main-conteiner{
     margin-top: 10px;
-    margin-left: 5em;
 }
 
+.main-conteiner h2{
+    text-align: start;
+}
 
 /* ============================= MAIN CONTEINER END =================== */
 
 
 /* ============================= MEDIA SCREEN ========================= */
 
+@media (max-width:992px){
+    .header__menu__burger-btn{
+        display: block;
+    }
+    .side-bar.open{
+        transform: translateX(100%);
+    }
+    .side-bar{
+        padding-top: 60px;
+        margin: 0;
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 350px;
+        background-color: blueviolet;
+        transition: transform .5s;
+    }
 
-@media screen and (min-width: 320px) {
-    
+    .side-bar h3{
+        text-align: center;
+    }
+
+    .link-settings{
+        color: white;
+        font-size: 19px;
+        display: block;
+    }
+    .h2{
+        color: white;
+    }
+    .header__menu__burger-btn{
+        color: white;
+        background-color: transparent;
+    }
 }
-
 
 
 
