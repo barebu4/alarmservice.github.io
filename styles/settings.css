@@ -60,6 +60,10 @@ body{
     z-index: 2;
 }
 
+.header__menu__burger-btn:hover{
+    cursor: pointer;;
+}
+
 .header__menu__burger-btn span{
     position: absolute;
     width: 30px;
