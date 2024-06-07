@@ -105,17 +105,101 @@ body{
     text-align: start;
 }
 
+
+/*============================ CONTENT ITEM ============================*/
+
+
+
+.content-conteniner{
+    display: block;
+}
+
+.font-size-settings{
+    font-size: 18px;
+}
+
+.select{
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.input-title{
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.select{
+    width: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#select-1{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#select-2{
+    margin-right: 2em;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    background-color: rgba(224, 224, 224, 0.589);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover{
+    border: .5px solid gray;
+}
+
+.btn-save{
+    margin-right: 0.5em;
+}
+
+.btn-close{
+    margin-left: 2em;
+    background-color: transparent;
+    cursor: pointer;
+    transform: .5s;
+}
+
+.img-close{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.btn-close:hover{
+    border: .5px solid gray;
+}
+
+/*============================ CONTENT ITEM END ============================*/
+
+
+
 /* ============================= MAIN CONTEINER END =================== */
 
 
 /* ============================= MEDIA SCREEN ========================= */
 
-@media (max-width:992px){
+@media (max-width:1150px){
     .header__menu__burger-btn{
         display: block;
     }
     .side-bar.open{
         transform: translateX(100%);
+    }
+    .h4{
+        color: white;
+        margin-left: 1em;
     }
     .side-bar{
         padding-top: 60px;
