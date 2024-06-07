@@ -1,0 +1,42 @@
+/* CSS STYLES FOR "settings copy 2.html" */
+
+
+
+/* ======================= PREMAIN ============== */
+
+.font-size-settings{
+    font-size: 18px;
+}
+
+
+
+/* ======================= PREMAIN END ============== */
+
+
+
+
+/* ======================== MAIN CONTEINER ================ */
+
+
+.content-item{
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+.input-mms{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    margin-right: 2em;
+}
+
+
+
+
+
+
+
+
+/* ======================== MAIN CONTEINER END ================ */

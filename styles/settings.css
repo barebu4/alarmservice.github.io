@@ -4,6 +4,8 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+
 button{
     border: none;
 }
@@ -94,6 +96,31 @@ button{
     padding-bottom: 1em;
     border-bottom: 0.5px solid gray;
 }
+
+.log-out img{
+    width: 28px;
+}
+
+.li-btn-log-out{
+    display: block;
+    text-align: center;
+}
+
+.log-out{
+    padding: 5px;
+    margin-top: 2em;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.log-out:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+
 
 /* ========================= SIDE BAR END ======================= */
 
@@ -315,6 +342,12 @@ button{
         color: white;
         background-color: transparent;
     }
+    /* .log-out:hover{
+        background-color: brown;
+        color: white;
+        border: none;
+    } */
+    
 }
 
 

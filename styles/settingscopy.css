@@ -1,0 +1,49 @@
+/* CSS STYLES FOR "settings copy.html" */
+
+
+/* ====================== MAIN CONTEINER =============== */
+
+
+.content-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+.input-clients{
+    width: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    margin-right: 2em;
+}
+
+.input-file{
+    width: 17em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== MAIN CONTEINER END =============== */
