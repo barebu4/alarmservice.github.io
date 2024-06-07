@@ -18,7 +18,7 @@
             <button class="header__menu__burger-btn" id="burger"><span></span><span></span><span></span></button>
             <!-- SIDE BAR LIST  -->
             <header class="side-bar open">
-                <h3 class="h2">Система экстренных уведомлений</h3>
+                <h3 class="h3">Система экстренных уведомлений</h3>
                 <nav class="menu">
                     <ul class="ul">
                         <h4 class="h4">Вкладки</h4>
@@ -39,24 +39,53 @@
         </div>
         <!-- CONTENT BLOCK -->
         <div class="main-conteiner">
+            <!-- TITLE TABS -->
             <h2>Шаблоны уведомлений</h2>
+            <!-- TAB CONTENT -->
             <div class="content-conteniner">
-                <div class="content-item">
+                <div class="content-item-done">
+                    <!-- INPUT -->
                     <input class="font-size-settings input-title" type="text" value="Название"></input>
+                    <!-- FIRST SELECT -->
                     <select class="font-size-settings select" name="" id="select-1">
                         <option value="">Название</option>
                         <option value="">Выбор 1</option>
                         <option value="">Выбор 2</option>
                     </select>
+                    <!-- SECOND SELECT -->
                     <select class="font-size-settings select" name="" id="select-2">
                         <option value="">Название</option>
                         <option value="">Выбор 1</option>
                         <option value="">Выбор 2</option>
                     </select>
-                    <button class="font-size-settings btn btn-save">Сохранить</button>
-                    <button class="font-size-settings btn btn-send">Отправить</button>
-                    <button class="font-size-settings btn btn-close"><img class="img-close" src="images/close-btn.png" width="16px" alt=""></button>
+                    <!-- BUTTONS -->
+                    <button class="font-size-settings genr-btn btn-save">Сохранить</button>
+                    <button class="font-size-settings genr-btn btn-send">Отправить</button>
+                    <button class="font-size-settings genr-btn btn-close"><img src="images/close-btn.png"
+                            alt=""></button>
                 </div>
+                <!-- CONTENT ITEM CREATE -->
+                <div class="content-item-create">
+                    <!-- INPUT -->
+                    <input class="font-size-settings input-title create" type="text" value="Название">
+
+                    <!-- FIRST SELECT CREATE -->
+                    <select class="font-size-settings select create" name="" id="select-1">
+                        <option value="">Группа контактов</option>
+                        <option value="">Выбор 1</option>
+                        <option value="">Выбор 2</option>
+                    </select>
+                    <!-- SECOND SELECT CREATE -->
+                    <select class="font-size-settings select create" name="" id="select-2">
+                        <option value="">Сообщение</option>
+                        <option value="">Выбор 1</option>
+                        <option value="">Выбор 2</option>
+                    </select>
+                    <button class="font-size-settings genr-btn btn-save create">Добавить</button>
+                    <button class="font-size-settings genr-btn btn-send create">Удалить</button>
+                </div>
+                <!-- ADD BUTTON -->
+                 <button class="font-size-settings add-btn">Добавить</button>
             </div>
         </div>
     </div>
