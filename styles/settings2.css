@@ -18,6 +18,14 @@
 /* ======================== MAIN CONTEINER ================ */
 
 
+.content-item-done{
+    width: 60em;
+}
+
+.content-item-create{
+    width: 60em;
+}
+
 .content-item{
     margin-top: 5em;
     margin-left: 5em;
@@ -33,6 +41,27 @@
 }
 
 
+.btn-save{
+    font-size: 16px;
+}
+
+.btn-send{
+    font-size: 16px;
+}
+
+
+.btn-save.create{
+    font-size: 16px;
+}
+
+.btn-send.create{
+    font-size: 16px;
+}    
+
+
+.add-btn{
+    font-size: 16px;
+}
 
 
 
