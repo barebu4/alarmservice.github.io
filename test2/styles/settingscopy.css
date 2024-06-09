@@ -1,0 +1,76 @@
+/* CSS STYLES FOR "settings copy.html" */
+
+
+
+
+/* ====================== MAIN CONTEINER =============== */
+
+
+
+.font-size-settings{
+    font-size: 18px;
+}
+
+input{
+    font-size: 18px;
+}
+
+.content-item-done{
+    width: 60em;
+}
+
+.content-item-create{
+    width: 60em;
+}
+
+.input-clients{
+    width: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    margin-right: 2em;
+}
+
+.input-file{
+    font-size: 16px;
+    width: 17em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* .input-file:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+} */
+
+.genr-btn{
+    font-size: 16px;
+}
+
+.add-btn{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== MAIN CONTEINER END =============== */
