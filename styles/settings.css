@@ -449,6 +449,32 @@ button{
     }
 }
 
+@media (max-width: 375px){
+    .media-size-block{
+    width: 21em;
+    }
+    .select-block{
+        display: block;
+        text-align: center;
+    }
+    #select-1{
+        margin: 0;
+        margin-left: 10px;
+    }
+    #select-2{
+        margin: 0;
+        margin-left: ;
+    }
+    .btn-close{
+        margin-left: 1em;
+    }
+    .btn-close img{
+        margin-top: 0;
+    }
+    .add-btn{
+        margin-left: 0;
+    }
+}
 
 
 
