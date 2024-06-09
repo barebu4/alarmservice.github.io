@@ -306,7 +306,26 @@ button{
 /* ============================= MEDIA SCREEN ========================= */
 
 
-/* MAIN MEDIA AND MEDIA FOR 1024PX */
+/* MEDIA FOR MIN 1024 PX */
+
+@media (min-width: 1025px){
+    .media-size-block{
+        display: flex;
+    }
+    .btn-close{
+        margin-bottom: 1em;
+    }
+    .btn-close img{
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+/* MAIN MEDIA AND MEDIA FOR 1024PX  (SHOW BUTGER BUTTON ON 1024PX)*/
 
 @media (max-width: 1024px){
     .header__menu__burger-btn{
@@ -346,12 +365,6 @@ button{
         color: white;
         background-color: transparent;
     }
-    /* .log-out:hover{
-        background-color: brown;
-        color: white;
-        border: none;
-    } */
-    
 }
 
 /* MEDIA FOR 768 PX */
@@ -449,7 +462,7 @@ button{
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 380px){
     .media-size-block{
     width: 21em;
     }
