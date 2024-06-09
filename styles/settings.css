@@ -396,16 +396,17 @@ button{
         text-align: center;
         margin-right: 2em;
     }
-    .content-item-done{
-        margin-left: 0;
-    }
-    .content-item-create{
-        margin-left: 0;
-    }
     .media-size-block{
-        width: 25em;
+        width: 30em;
 
     }
+    .select-block{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px){
     #select-1{
         margin: 0;
     }
@@ -413,11 +414,43 @@ button{
         margin: 0;
         margin-left: 1em;
     }
-    .select-block{
-        display: block;
-        text-align: center;
+    .content-item-done{
+        margin-left: 2em;
+    }
+    .content-item-create{
+        margin-left: 2em;
+    } 
+}
+
+
+@media (max-width: 500px){
+    .content-item-done{
+        margin-left: .5em;
+    }
+    .content-item-create{
+        margin-left: .5em;
+    }  
+}
+
+@media (max-width: 425px){
+    .content-item-done{
+        margin-left: 0;
+    }
+    .content-item-create{
+        margin-left: 0;
+    } 
+    .media-size-block{
+        width: 25em;
+    }
+    .input-title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 2.5em;
     }
 }
+
+
+
 
 
 /* ============================= MEDIA SCREEN END ========================= */
