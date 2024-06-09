@@ -403,8 +403,15 @@ button{
         margin-left: 0;
     }
     .media-size-block{
-        width: 30em;
+        width: 25em;
 
+    }
+    #select-1{
+        margin: 0;
+    }
+    #select-2{
+        margin: 0;
+        margin-left: 1em;
     }
     .select-block{
         display: block;
