@@ -305,7 +305,10 @@ button{
 
 /* ============================= MEDIA SCREEN ========================= */
 
-@media (max-width:1150px){
+
+/* MAIN MEDIA AND MEDIA FOR 1024PX */
+
+@media (max-width: 1024px){
     .header__menu__burger-btn{
         display: block;
     }
@@ -351,10 +354,55 @@ button{
     
 }
 
+/* MEDIA FOR 768 PX */
 
 
+@media screen and (max-width: 768px){
+    .main{
+        grid-template-columns: 1fr 11fr;
+    }
+    .main-conteiner{
+        margin: 0;
+        padding: 0;
+    }
+    .media-size-block{
+        width: 30em;
+    }
+    .input-title{
+        text-align: center;
+        margin-left: 5em;
+        margin-bottom: 1em;
+    }
+    
+    .button-block{
+        display: block;
+        text-align: center;
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+    .select-block{
+        display: block;
+        text-align: center;
+    }
+}
 
+/* MEDIA FOR 640 PX */
 
+@media (max-width: 640px){
+    .content-item-done{
+        margin-left: 0;
+    }
+    .content-item-create{
+        margin-left: 0  ;
+    }
+    .media-size-block{
+        width: 32em;
+    }
+    .select-block{
+        display: block;
+        text-align: center;
+    }
+}
 
 
 /* ============================= MEDIA SCREEN END ========================= */
