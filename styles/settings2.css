@@ -69,3 +69,134 @@
 
 
 /* ======================== MAIN CONTEINER END ================ */
+
+
+
+
+/* ========================== MEDIA SCREEN ======================= */
+
+
+
+@media (max-width:1024px){
+    .media-size-block{
+        margin-left: 0;
+        width: 55em;
+        margin-right: 5em;
+    }
+}
+
+
+@media (max-width:768px){
+    .media-size-block{
+    width: 40em;
+    }
+    .input-title{
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .input-mms{
+        text-align: center;
+    }
+    .btn-close img{
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width:640px) {
+    .media-size-block{
+        width: 35em;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .input-block{
+        margin-left: 1em;
+    }
+    .button-block{
+        margin-left: 1.5em;
+    }
+    .button-block.second{
+        margin-left: .5em   ;
+    }
+    .btn-send.create{
+        margin-left: 1em;
+    }
+}
+
+
+@media (max-width:550px){
+    .main{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+    .main-conteiner h2{
+        margin: 0;
+    }
+    .media-size-block{
+        width: 30em;
+        margin: 0;
+        margin-left: 2em;
+        text-align: center;
+    }
+    .media-size-block input{
+        margin: 0;
+    }
+    .font-size-settings.input-title{
+        margin-top: 1em;
+        margin-bottom: .5em;
+    }
+}
+
+
+@media (max-width:500px){
+    .media-size-block{
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width:425px){
+    .media-size-block{
+        width: 25em;
+        text-align: center;
+    }
+    .button-block{
+        margin: 0;
+        margin-left: 1.5em;
+    }
+    .btn-close{
+        margin: 0;
+        margin-top: .9em;
+        margin-left: 1em;
+        padding-bottom: 5px;
+    }
+    .button-block.second{
+        margin: 0;
+        margin-left: 1em;
+    }
+}
+
+
+@media (max-width:380px){
+    .media-size-block{
+        width: 22em;
+        margin: 0;
+    }
+    .button-block{
+        margin: 0;
+    }
+    .btn-close{
+        margin-left: .5em;
+    }
+}
+
+
+
+
+
+
+
+
+/* ========================== MEDIA SCREEN END ======================= */

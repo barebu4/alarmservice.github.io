@@ -306,7 +306,7 @@ button{
 /* ============================= MEDIA SCREEN ========================= */
 
 
-/* MEDIA FOR MIN 1024 PX */
+/* MEDIA FOR MIN 1025 PX */
 
 @media (min-width: 1025px){
     .media-size-block{
@@ -328,6 +328,10 @@ button{
 /* MAIN MEDIA AND MEDIA FOR 1024PX  (SHOW BUTGER BUTTON ON 1024PX)*/
 
 @media (max-width: 1024px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 11fr;
+    }
     .header__menu__burger-btn{
         display: block;
     }
@@ -364,6 +368,42 @@ button{
     .header__menu__burger-btn{
         color: white;
         background-color: transparent;
+    }
+    .media-size-block{
+        display: block;
+        text-align: center;
+        width: 50em;
+        margin-left: 2em;
+    }
+    .input-title{
+        text-align: center;
+        padding-right: 2em;
+        margin-bottom: 1em;
+    }
+    .button-block{
+        display: block;
+        text-align: center;
+    }
+    .btn-save{
+        margin: 0;
+        margin-top: 1em;
+        margin-right: .5em;
+    }
+    .btn-send{
+        margin-top: 1em;
+        margin-left: .5em;
+    }
+    .btn-close{
+        margin-top: 1em;
+    }
+    .btn-close img{
+        margin: 0;
+    }
+    .btn-save.create{
+        margin-right: 0;
+    }
+    .btn-send.create{
+        margin-right: 1em;
     }
 }
 
@@ -420,6 +460,10 @@ button{
 }
 
 @media (max-width: 550px){
+    .input-title{
+        text-align: center;
+        margin-left: 0;
+    }
     #select-1{
         margin: 0;
     }
@@ -432,7 +476,7 @@ button{
     }
     .content-item-create{
         margin-left: 2em;
-    } 
+    }
 }
 
 
@@ -476,7 +520,7 @@ button{
     }
     #select-2{
         margin: 0;
-        margin-left: ;
+        margin-left: 0;
     }
     .btn-close{
         margin-left: 1em;
