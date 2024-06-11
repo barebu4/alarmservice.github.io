@@ -4,6 +4,16 @@
 
 /* ======================= PREMAIN ============== */
 
+html{
+    touch-action: none;
+}
+
+body{
+    touch-action: none;
+}
+
+
+
 .font-size-settings{
     font-size: 18px;
 }
@@ -74,6 +84,13 @@
 
 
 /* ========================== MEDIA SCREEN ======================= */
+
+@media (min-width: 1025px){
+    .media-size-block{
+    
+    }
+}
+
 
 
 
