@@ -102,7 +102,7 @@ input{
 
 @media (max-width:425px){
     .media-size-block{
-        width: 25em;
+        width: 23em;
     }
     .add-btn{
         margin-left: 1em;
