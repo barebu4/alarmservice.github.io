@@ -165,9 +165,7 @@ button{
     padding-bottom: 1em;
 }
 
-.select-block{
-    text-align: center;
-}
+
 
 .select{
     color: gray;
@@ -557,7 +555,7 @@ button{
 /* ============================= MEDIA SCREEN END ========================= */
 
 
-
+/* ======================== ERROR MESSAGE ========================*/
 
 .popup {
     position: relative;
@@ -600,7 +598,4 @@ button{
 
 
 
-
-.select-block{
-    display: flex;
-}
+/* ======================== ERROR MESSAGE END ========================*/
