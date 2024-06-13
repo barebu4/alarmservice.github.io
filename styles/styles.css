@@ -1,6 +1,17 @@
+
+
+/*========================== PREMAIN ==========================*/
+
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+/*========================== PREMAIN END ==========================*/
+
+
+/*======================= MAIN STYLES FOR INDEX.HTML PAGE =======================*/
 
 .navbar{
     display: block;
@@ -36,6 +47,14 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.login-input{
+    width: 98%;
+}
+
+.password-input{
+    width: 98%;
 }
 
 .login-input{
@@ -80,3 +99,53 @@ body{
     color: black;
     border: 0.5px solid black;
 }
+
+
+/*============================= MAIN STYLES END =============================*/
+
+
+
+/* ======================== ERROR MESSAGE ========================*/
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    /* visibility: hidden; */
+    /* display: none; */
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+}
+
+
+
+/* ======================== ERROR MESSAGE END ========================*/

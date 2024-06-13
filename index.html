@@ -9,17 +9,28 @@
 </head>
 
 <body>
+    <!-- NAV BAR -->
     <nav>
         <div class="navbar">
             Авторизация
         </div>
     </nav>
+    <!-- MAIN BLOCK -->
     <div class="main">
+        <!-- LOGIN BLOCK -->
         <div class="login-conteiner">
             <h2 class="h2">Вход</h2>
             <h4 class="h4">Введите логин и пароль для входа</h4>
-            <input class="login-input" type="text" placeholder="Логин">
-            <input class="password-input" type="text" placeholder="Пароль">
+            <!-- LOGIN INPUT -->
+            <div class="login-block popup">
+                <input class="login-input" type="text" placeholder="Логин">
+                <span class="popuptext" id="myPopup">A Simple Popup!</span>
+            </div>
+            <!-- PASSWORD INPUT -->
+            <div class="login-block popup">
+                <input class="password-input" type="text" placeholder="Пароль">
+                <span class="popuptext" id="myPopup">A Simple Popup!</span>
+            </div>
             <button class="come-in-button" type="submit" onclick="document.location='settings.html'">Войти</button>
         </div>
     </div>
